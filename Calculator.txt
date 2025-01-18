@@ -9,12 +9,18 @@ class Calculator
 		return a-b;
 	}
 	
+	public static int Multiplication(int a, int b){
+		return a*b;
+	}
+		
 	public static void main(String[] args)
 	{
 		int sum=Addition(a,b);
 		int diff=Subtraction(a,b);
+		int product=Multiplication(a,b);
 		Console.WriteLine("Addition of two numers : "+sum);
 		Console.WriteLine("Subtraction of two numbers : "+diff);
+		Console.WriteLine("Multiplication of two numbers : "+product);
 	}
 }
  
