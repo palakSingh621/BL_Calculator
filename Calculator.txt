@@ -2,13 +2,19 @@ class Calculator
 {
 
 	public static int Addition(int a,int b){
-	return a+b;
+		return a+b;
 	}
-
+	
+	public static int Subtraction(int a,int b){
+		return a-b;
+	}
+	
 	public static void main(String[] args)
 	{
 		int sum=Addition(a,b);
+		int diff=Subtraction(a,b);
 		Console.WriteLine("Addition of two numers : "+sum);
+		Console.WriteLine("Subtraction of two numbers : "+diff);
 	}
 }
  
