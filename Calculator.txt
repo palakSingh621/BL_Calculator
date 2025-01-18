@@ -19,6 +19,8 @@ class Calculator
 		
 	public static void main(String[] args)
 	{
+		int a=10;
+		int b=5;
 		int sum=Addition(a,b);
 		int diff=Subtraction(a,b);
 		int product=Multiplication(a,b);
