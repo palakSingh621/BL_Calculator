@@ -12,15 +12,21 @@ class Calculator
 	public static int Multiplication(int a, int b){
 		return a*b;
 	}
+
+	public static int Division(int a, int b){
+		return a/b;
+	}
 		
 	public static void main(String[] args)
 	{
 		int sum=Addition(a,b);
 		int diff=Subtraction(a,b);
 		int product=Multiplication(a,b);
+		int div=Division(a,b);
 		Console.WriteLine("Addition of two numers : "+sum);
 		Console.WriteLine("Subtraction of two numbers : "+diff);
 		Console.WriteLine("Multiplication of two numbers : "+product);
+		Console.WriteLine("Division of two numbers : "+div);
 	}
 }
  
